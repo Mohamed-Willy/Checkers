@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/activity_edit_delete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/activity_game_board.xml" value="0.264" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/activity_interface.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/activity_load_game.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/activity_main3.xml" value="0.264" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/content_interface.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/credits.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/gamename_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/how_to_play.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/options_activity.xml" value="0.264" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/phase1.xml" value="0.264" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/phase2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/popup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/popup2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/layout/winning_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.136" />
+        <entry key="..\:/Users/nnnbb/AndroidStudioProjects/Checkers/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.152" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:id="@+id/options_layout"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#F0E5C6"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/logo"
+        android:drawableRight="@drawable/logo"
+        android:padding="5dp"
+        android:text="OPTIONS"
+        android:textAlignment="center"
+        android:textColor="#964B00"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/sound_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="30dp"
+        android:text="Sound"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:thumb="@drawable/sw_thumb"
+        app:showText="true"
+        app:track="@drawable/sw_track" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sound_switch"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Background"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/white_wood"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/textView8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:srcCompat="@drawable/whitewood" />
+
+    <ImageButton
+        android:id="@+id/black_wood"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/white_wood"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:srcCompat="@drawable/blackwoodback" />
+
+    <ImageButton
+        android:id="@+id/cyan"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/black_wood"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:srcCompat="@drawable/cyan" />
+
+    <ImageButton
+
+        android:id="@+id/orange"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/white_wood"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:srcCompat="@drawable/orangebackground" />
+
+    <ImageButton
+        android:id="@+id/green"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/black_wood"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/orange"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:srcCompat="@drawable/green" />
+
+
+    <ImageButton
+        android:id="@+id/colors"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/cyan"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/green"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:srcCompat="@drawable/colourful" />
+
+</RelativeLayout>

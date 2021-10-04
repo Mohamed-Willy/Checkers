@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.checkers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/white_wood">
+        <activity
+            android:name=".Main_Menu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoadGame_Activity"
+            android:parentActivityName=".Main_Menu" />
+        <activity
+            android:name=".phase1"
+            android:parentActivityName=".Main_Menu" />
+        <activity
+            android:name=".phase2"
+            android:parentActivityName=".Main_Menu" />
+        <activity
+            android:name=".pop"
+            android:parentActivityName=".Main_Menu" />
+        <activity
+            android:name=".pop2"
+            android:parentActivityName=".Main_Menu" />
+        <activity
+            android:name=".GameBoard"
+            android:parentActivityName=".Main_Menu" />
+        <activity
+            android:name=".credits"
+            android:parentActivityName=".Main_Menu" />
+        <activity
+            android:name=".how_to_play"
+            android:parentActivityName=".Main_Menu" />
+        <activity
+            android:name=".options"
+            android:parentActivityName=".Main_Menu" />
+    </application>
+
+</manifest>

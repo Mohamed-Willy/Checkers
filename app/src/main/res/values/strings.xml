@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Checkers</string>
+    <string name="play">PLAY</string>
+    <string name="load_game">LOAD GAME</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="options">OPTIONS</string>
+    <string name="credits">CREDITS</string>
+
+    <string name="rules"><![CDATA[1- A piece is called a man.\n
+        2- Pieces can only move diagonally, neither horizontally nor vertically.\n
+        3- Capturing opponent\'s pieces is by jumping over them if there is an empty square behind them.\n
+        4- When one of your pieces reaches your opponent\'s side of the board, it becomes a king and gets crowned.\n
+        5- A king \"crowned piece\" can move and capture diagonally forward and backward.\n
+        6- The winner who eliminates all of his opponent\'s pieces.\n
+    ]]></string>
+    <string name="credits_names">Developed and maintained by:\n\n
+   1- Mariam Ibrahim\n
+   2- Philip Wagih \n
+   3- Mohamed Waled \n
+   4- Sarah Sayed \n
+   5- Mariem Mohamed \n
+   6- Mariam Ashraf \n
+    </string>
+    <string name="save_button">save_button</string>
+</resources>
